@@ -1,0 +1,1062 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "a고딕11";
+  src: url("img/a고딕11.ttf");
+}
+@font-face {
+  font-family: "a고딕12";
+  src: url("img/a고딕12.ttf");
+}
+@font-face {
+  font-family: "TmonMonsori";
+  src: url("img/TmonMonsori.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#skip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+}
+#skip a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #161616;
+  color: white;
+  font-size: 0;
+  line-height: 0;
+}
+#skip a:focus {
+  line-height: 50px;
+  fone-size: 17px;
+  font-family: "a고딕15";
+}
+
+.wrap {
+  background: linear-gradient(to right bottom, #0f0f0f, #282828);
+}
+#header {
+  width: 1200px;
+  height: 81px;
+  margin: 0 auto;
+  position: relative;
+  color: white;
+}
+#header h1 {
+  float: left;
+  margin: 20px 93px 0 35px;
+}
+#header h1 img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+#header .nav {
+  float: left;
+}
+#header .nav ul {
+  margin-top: 30px;
+}
+#header .nav ul li {
+  float: left;
+  font-family: "a고딕12";
+}
+#header .nav ul li a {
+  padding: 0 38px 0 0;
+}
+#header .aside {
+}
+#header .aside ul {
+  float: right;
+  margin-right: 55px;
+  margin-top: 30px;
+}
+#header .aside ul li {
+  float: left;
+}
+#header .aside ul li:nth-of-type(2) {
+  padding-left: 10px;
+}
+#header .aside ul li img {
+  width: 25px;
+  height: 25px;
+}
+
+#main {
+  width: 1200px;
+  height: 877px;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+}
+#main .view {
+  padding-top: 250px;
+}
+#maim .view ul {
+}
+#main .view ul li:nth-of-type(1) {
+  font-size: 72px;
+  font-family: "TmonMonsori";
+}
+#main .view ul li:nth-of-type(2) {
+  font-size: 72px;
+  font-family: "TmonMonsori";
+}
+#main .view ul li:nth-of-type(3) {
+  font-size: 20px;
+  font-family: "a고딕11";
+  padding-top: 53px;
+}
+#main .view ul li:nth-of-type(4) {
+  font-size: 27px;
+  font-family: "a고딕12";
+  padding-top: 50px;
+}
+#main .view ul li a img {
+  padding-left: 15px;
+  vertical-align: middle;
+}
+#main .image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.wrap2 {
+  background: #161616;
+}
+#event {
+  width: 1200px;
+  height: 956px;
+  margin: 0 auto;
+}
+#event > span {
+  display: block;
+  padding-top: 33px;
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-family: "a고딕15";
+  color: white;
+}
+#event hr {
+  size: 1px;
+  width: 1144px;
+}
+
+#event .swiper-container {
+  width: 1200px;
+  height: 700px;
+}
+#event .swiper-wrapper {
+}
+#event .swiper-wrapper .swiper-slide {
+}
+#event .swiper-wrapper .swiper-slide img {
+  padding-top: 30px;
+}
+#event .swiper-pagination {
+  bottom: 25px;
+}
+#event .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background: gray;
+  opacity: 1;
+} /* 하단 버튼 비활성화 */
+#event .swiper-pagination-bullet-active {
+  width: 13px;
+  height: 13px;
+  background: white;
+} /* 하단 버튼 활성화 */
+
+#product {
+  width: 1200px;
+  height: 1665px;
+  margin: 0 auto;
+}
+#product h2 {
+  display: block;
+  padding-top: 33px;
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-family: "a고딕12";
+  color: white;
+}
+#product hr {
+  size: 1px;
+  width: 1144px;
+}
+#product h3 {
+  padding-top: 25px;
+  font-size: 20px;
+  font-family: "a고딕15";
+  color: white;
+  text-align: center;
+  font-weight: normal;
+}
+
+#product .top {
+}
+#product .top h3 {
+  display: inline-block;
+  padding-left: 0;
+  padding-top: 60px;
+}
+#product .top .swiper-container {
+  width: 1200px;
+  height: 700px;
+}
+#product .top .swiper-wrapper {
+}
+#product .top .swiper-wrapper .swiper-slide {
+}
+#product .top .swiper-wrapper .swiper-slide img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 115px;
+}
+#product .top .swiper-wrapper .swiper-slide h4 {
+  text-align: center;
+  color: white;
+  font-family: "a고딕15";
+  padding-top: 40px;
+  font-weight: normal;
+}
+#product .top .swiper-pagination {
+  top: 50px;
+}
+#product .top .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background: gray;
+  opacity: 1;
+} /* 하단 버튼 비활성화 */
+#product .top .swiper-pagination-bullet-active {
+  width: 13px;
+  height: 13px;
+  background: white;
+} /* 하단 버튼 활성화 */
+#product .top .arrow {
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 100;
+  font-size: 50px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+#product .top .arrow.prev {
+  margin-left: -500px;
+}
+#product .top .arrow.next {
+  margin-left: 450px;
+}
+
+#product .bottom {
+}
+#product .bottom h3 {
+  display: inline-block;
+  padding-left: 0;
+  padding-top: 30px;
+}
+#product .bottom .swiper-container {
+  width: 1200px;
+  height: 700px;
+}
+#product .bottom .swiper-wrapper {
+}
+#product .bottom .swiper-wrapper .swiper-slide {
+}
+#product .bottom .swiper-wrapper .swiper-slide img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 115px;
+}
+#product .bottom .swiper-wrapper .swiper-slide h4 {
+  text-align: center;
+  color: white;
+  font-family: "a고딕15";
+  padding-top: 40px;
+  font-weight: normal;
+}
+#product .bottom .swiper-pagination {
+  top: 50px;
+}
+#product .bottom .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background: gray;
+  opacity: 1;
+} /* 하단 버튼 비활성화 */
+#product .bottom .swiper-pagination-bullet-active {
+  width: 13px;
+  height: 13px;
+  background: white;
+} /* 하단 버튼 활성화 */
+#product .bottom .arrow {
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 100;
+  font-size: 50px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+#product .bottom .arrow.prev {
+  margin-left: -500px;
+}
+#product .bottom .arrow.next {
+  margin-left: 450px;
+}
+
+.wrap3 {
+  background: radial-gradient(circle, #dcb9b7, #b3817a);
+}
+#register {
+  width: 1200px;
+  height: 997px;
+  margin: 0 auto;
+}
+#register span {
+  display: block;
+  padding-top: 33px;
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-family: "a고딕15";
+  color: white;
+}
+#register hr {
+  size: 1px;
+  width: 1144px;
+  color: white;
+}
+#register img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+#register form {
+}
+#register form input[type="text"] {
+  display: block;
+  width: 500px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 35px;
+  background: none;
+  outline: none;
+  margin: 0 auto;
+  color: white;
+  font-size: 17px;
+  font-family: "a고딕15";
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#register form input::placeholder {
+  color: white;
+  font-size: 17px;
+  font-family: "a고딕15";
+}
+#register form button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 180px;
+  height: 40px;
+  color: #b3817a;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 19px;
+  text-align: center;
+  font-family: "a고딕15";
+  box-shadow: 0 4px 16px rgba(161, 116, 110, 0.3);
+  transition: 0.3s;
+}
+#register form button:hover {
+  box-shadow: 0 4px 16px rgba(161, 116, 110, 0.9);
+}
+
+.wrap4 {
+  background: #e7e7e7;
+}
+#footer {
+  width: 1200px;
+  height: 449px;
+  margin: 0 auto;
+  position: relative;
+}
+#footer .nav2 .line {
+  display: flex;
+  padding-top: 61px;
+}
+#footer .nav2 .line ul {
+  flex-flow: row wrap;
+  width: 240px;
+  margin: 0 auto;
+}
+#footer .nav2 .contact ul {
+}
+#footer .nav2 .company ul {
+}
+#footer .nav2 .prod ul {
+}
+#footer .nav2 .notice ul {
+}
+#footer .nav2 .channel ul {
+}
+#footer .nav2 .news {
+  display: inline-block;
+}
+#footer .nav2 ul li:nth-of-type(1) {
+  font-size: 20px;
+  font-family: "a고딕15";
+}
+#footer .nav2 ul li:nth-of-type(2) {
+  padding-top: 3px;
+}
+#footer .nav2 ul li {
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-family: "a고딕12";
+}
+#footer .nav2 .news {
+  padding-left: 960px;
+}
+#footer .nav2 .news p {
+  font-size: 20px;
+  font-family: "a고딕15";
+  background: none;
+}
+#footer .nav2 .news form {
+  font-family: "a고딕12";
+  padding-top: 12px;
+}
+#footer .nav2 .news form input {
+}
+#footer .nav2 .news form input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: none;
+}
+#footer .nav2 .news form input::placeholder {
+  color: gray;
+  font-size: 12px;
+  font-family: "a고딕15";
+}
+#footer .nav2 .news form button {
+  width: 60px;
+  height: 23px;
+  border-radius: 100px;
+  background: #161616;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 10px;
+  text-align: center;
+  font-family: "a고딕12";
+}
+#footer h1 {
+  display: block;
+  text-align: center;
+  padding-top: 85px;
+}
+
+/*서브 페이지 1*/
+
+.all {
+  background: #161616;
+}
+
+#headphone {
+  width: 1200px;
+  height: 1800px;
+  margin: 0 auto;
+}
+#headphone span {
+  display: block;
+  padding-top: 33px;
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-family: "a고딕15";
+  color: white;
+}
+#headphone hr {
+  size: 1px;
+  width: 1144px;
+}
+#headphone ul .left {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 60px;
+}
+#headphone ul .left wrap {
+  color: white;
+  padding-top: 70px;
+  padding-left: 55px;
+}
+#headphone ul .left wrap h2 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 43px;
+  padding-bottom: 13px;
+}
+#headphone ul .left wrap h3 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 13px;
+}
+#headphone ul .left wrap h4 {
+  display: flex;
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 37px;
+}
+#headphone ul .left wrap h4 .circle {
+  display: flex;
+  padding-top: 6px;
+}
+#headphone ul .left wrap h4 .circle li {
+  width: 24px;
+  height: 24px;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin-left: 12px;
+}
+#headphone ul .left wrap h4 .circle li:nth-of-type(1) {
+  background: #2b2b2b;
+}
+#headphone ul .left wrap h4 .circle li:nth-of-type(2) {
+  background: #ca9994;
+}
+#headphone ul .left wrap h4 .circle li:nth-of-type(3) {
+  background: #b10212;
+}
+#headphone ul .left wrap h5 {
+  font-weight: normal;
+  font-family: "a고딕11";
+  font-size: 23px;
+  line-height: 25pt;
+}
+
+#headphone ul .right {
+  display: flex;
+  padding-top: 300px;
+  padding-left: 60px;
+}
+#headphone ul .right wrap {
+  color: white;
+  padding-top: 70px;
+  padding-right: 55px;
+}
+#headphone ul .right wrap h2 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 43px;
+  padding-bottom: 13px;
+}
+#headphone ul .right wrap h3 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 13px;
+}
+#headphone ul .right wrap h4 {
+  display: flex;
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 37px;
+}
+#headphone ul .right wrap h4 .circle {
+  display: flex;
+  padding-top: 6px;
+}
+#headphone ul .right wrap h4 .circle li {
+  width: 24px;
+  height: 24px;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin-left: 12px;
+}
+#headphone ul .right wrap h4 .circle li:nth-of-type(1) {
+  background: #2b2b2b;
+}
+#headphone ul .right wrap h4 .circle li:nth-of-type(2) {
+  background: #b10212;
+}
+#headphone ul .right wrap h4 .circle li:nth-of-type(3) {
+  background: #f7ede2;
+}
+#headphone ul .right wrap h4 .circle li:nth-of-type(4) {
+  background: #243652;
+}
+#headphone ul .right wrap h4 .circle li:nth-of-type(5) {
+  background: #834f1b;
+}
+#headphone ul .right wrap h4 .circle li:nth-of-type(6) {
+  background: #585a5b;
+}
+#headphone ul .right wrap h5 {
+  font-weight: normal;
+  font-family: "a고딕11";
+  font-size: 23px;
+  line-height: 25pt;
+}
+
+/* 마우스오버 효과 */
+#headphone ul shield {
+  position: relative;
+}
+#headphone ul shield plus {
+  position: absolute;
+  bottom: 4px;
+  right: 0px;
+  width: 492px;
+  height: 492px;
+  border-radius: 250px;
+  background: rgba(27, 27, 27, 0.6);
+  text-align: center;
+  line-height: 492px;
+  opacity: 0;
+  transition: 0.5s;
+  color: white;
+  font-size: 30px;
+  font-family: "a고딕12";
+}
+#headphone ul shield plus:hover {
+  opacity: 1;
+}
+
+/* 서브 페이지 2*/
+
+.all {
+  background: #161616;
+}
+
+#earbird {
+  width: 1200px;
+  height: 3570px;
+  margin: 0 auto;
+}
+#earbird span {
+  display: block;
+  padding-top: 33px;
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-family: "a고딕15";
+  color: white;
+}
+#earbird hr {
+  size: 1px;
+  width: 1144px;
+}
+#earbird ul .left {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 60px;
+}
+#earbird ul .left wrap {
+  color: white;
+  padding-top: 70px;
+  padding-left: 55px;
+}
+#earbird ul .left wrap h2 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 43px;
+  padding-bottom: 13px;
+}
+#earbird ul .left wrap h3 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 13px;
+}
+#earbird ul .left wrap h4 {
+  display: flex;
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 37px;
+}
+#earbird ul .left wrap h4 .circle {
+  display: flex;
+  padding-top: 6px;
+}
+#earbird ul .left wrap h4 .circle li {
+  width: 24px;
+  height: 24px;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin-left: 12px;
+}
+#earbird ul .left wrap h4 .circle li:nth-of-type(1) {
+  background: black;
+}
+#earbird ul .left wrap h4 .circle li:nth-of-type(2) {
+  background: #f7ede2;
+}
+#earbird ul .left wrap h4 .circle li:nth-of-type(3) {
+  background: #707071;
+}
+#earbird ul .left wrap h4 .circle li:nth-of-type(4) {
+  background: #e4ccee;
+}
+#earbird ul .left wrap h5 {
+  font-weight: normal;
+  font-family: "a고딕11";
+  font-size: 23px;
+  line-height: 25pt;
+}
+
+#earbird ul .right {
+  display: flex;
+  padding-top: 300px;
+  padding-left: 60px;
+}
+#earbird ul .right wrap {
+  color: white;
+  padding-top: 70px;
+  padding-right: 55px;
+}
+#earbird ul .right wrap h2 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 43px;
+  padding-bottom: 13px;
+}
+#earbird ul .right wrap h3 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 13px;
+}
+#earbird ul .right wrap h4 {
+  display: flex;
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 37px;
+}
+#earbird ul .right wrap h4 .circle {
+  display: flex;
+  padding-top: 6px;
+}
+#earbird ul .right wrap h4 .circle li {
+  width: 24px;
+  height: 24px;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin-left: 12px;
+}
+#earbird ul .right wrap h4 .circle li:nth-of-type(1) {
+  background: #384484;
+}
+#earbird ul .right wrap h4 .circle li:nth-of-type(2) {
+  background: #a4a4a4;
+}
+#earbird ul .right wrap h4 .circle li:nth-of-type(3) {
+  background: #f4cce4;
+}
+#earbird ul .right wrap h4 .circle li:nth-of-type(4) {
+  background: #2b2b2b;
+}
+#earbird ul .right wrap h4 .circle li:nth-of-type(5) {
+  background: #f7ede2;
+}
+#earbird ul .right wrap h4 .circle li:nth-of-type(6) {
+  background: #b10212;
+}
+#earbird ul .right wrap h5 {
+  font-weight: normal;
+  font-family: "a고딕11";
+  font-size: 23px;
+  line-height: 25pt;
+}
+
+#earbird ul .left2 {
+  display: flex;
+  padding-top: 300px;
+  padding-left: 60px;
+}
+#earbird ul .left2 wrap {
+  color: white;
+  padding-top: 70px;
+  padding-left: 55px;
+}
+#earbird ul .left2 wrap h2 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 43px;
+  padding-bottom: 13px;
+}
+#earbird ul .left2 wrap h3 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 13px;
+}
+#earbird ul .left2 wrap h4 {
+  display: flex;
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 37px;
+}
+#earbird ul .left2 wrap h4 .circle {
+  display: flex;
+  padding-top: 6px;
+}
+#earbird ul .left2 wrap h4 .circle li {
+  width: 24px;
+  height: 24px;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin-left: 12px;
+}
+#earbird ul .left2 wrap h4 .circle li:nth-of-type(1) {
+  background: #2b2b2b;
+}
+#earbird ul .left2 wrap h4 .circle li:nth-of-type(2) {
+  background: #f2fb97;
+}
+#earbird ul .left2 wrap h4 .circle li:nth-of-type(3) {
+  background: #adddf2;
+}
+#earbird ul .left2 wrap h4 .circle li:nth-of-type(3) {
+  background: #dddddd;
+}
+#earbird ul .left2 wrap h5 {
+  font-weight: normal;
+  font-family: "a고딕11";
+  font-size: 23px;
+  line-height: 25pt;
+}
+
+#earbird ul .right2 {
+  display: flex;
+  padding-top: 300px;
+  padding-left: 60px;
+}
+#earbird ul .right2 wrap {
+  color: white;
+  padding-top: 70px;
+  padding-right: 55px;
+}
+#earbird ul .right2 wrap h2 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 43px;
+  padding-bottom: 13px;
+}
+#earbird ul .right2 wrap h3 {
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 13px;
+}
+#earbird ul .right2 wrap h4 {
+  display: flex;
+  font-weight: normal;
+  font-family: "Tmon몬소리 Black";
+  font-size: 30px;
+  padding-bottom: 37px;
+}
+#earbird ul .right2 wrap h4 .circle {
+  display: flex;
+  padding-top: 6px;
+}
+#earbird ul .right2 wrap h4 .circle li {
+  width: 24px;
+  height: 24px;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin-left: 12px;
+}
+#earbird ul .right2 wrap h4 .circle li:nth-of-type(1) {
+  background: #f7ece2;
+}
+#earbird ul .right2 wrap h4 .circle li:nth-of-type(2) {
+  background: #2b2b2b;
+}
+#earbird ul .right2 wrap h4 .circle li:nth-of-type(3) {
+  background: #243745;
+}
+#earbird ul .right2 wrap h5 {
+  font-weight: normal;
+  font-family: "a고딕11";
+  font-size: 23px;
+  line-height: 25pt;
+}
+
+/* 마우스오버 효과 */
+#earbird ul shield {
+  position: relative;
+}
+#earbird ul shield plus {
+  position: absolute;
+  bottom: 4px;
+  right: 0px;
+  width: 492px;
+  height: 492px;
+  border-radius: 250px;
+  background: rgba(27, 27, 27, 0.6);
+  text-align: center;
+  line-height: 492px;
+  opacity: 0;
+  transition: 0.5s;
+  color: white;
+  font-size: 30px;
+  font-family: "a고딕12";
+}
+#earbird ul shield plus:hover {
+  opacity: 1;
+}
+
+/*서브 페이지3*/
+
+.all {
+  background: #161616;
+}
+
+#introduce {
+  width: 1200px;
+  height: 3700px;
+  margin: 0 auto;
+}
+#introduce > img:nth-of-type(1) {
+  padding-top: 170px;
+  display: block;
+  margin: 0 auto;
+}
+#introduce > img:nth-of-type(2) {
+  padding-top: 78px;
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+}
+#introduce h2 {
+  padding-top: 150px;
+  font-size: 72px;
+  font-family: "Tmon몬소리 Black";
+  color: white;
+  text-align: center;
+}
+#introduce h3 {
+  padding-top: 50px;
+  font-size: 55px;
+  font-family: "a고딕11";
+  font-weight: 200;
+  color: white;
+  text-align: center;
+}
+#introduce ul {
+}
+#introduce ul .sound {
+  text-align: left;
+}
+#introduce ul .sound img {
+  margin-left: 0;
+}
+#introduce ul .noise {
+  text-align: right;
+}
+#introduce ul .noise img {
+  margin-right: 0;
+}
+#introduce ul .battery {
+  text-align: left;
+}
+#introduce ul .battery img {
+  margin-left: 0;
+}
+#introduce ul .ear {
+  text-align: right;
+}
+#introduce ul .ear img {
+  margin-right: 0;
+}
+#introduce ul li h4 {
+  font-family: "a고딕12";
+  font-size: 52px;
+  color: white;
+}
+#introduce ul li h5 {
+  font-family: "a고딕10";
+  font-weight: 200;
+  font-size: 30px;
+  color: white;
+}
+
+/*서브 페이지4*/
+#event2 {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+}
+#event2 > span {
+  display: block;
+  padding-top: 33px;
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-family: "a고딕15";
+  color: white;
+}
+#event2 hr {
+  size: 1px;
+  width: 1144px;
+}
+#event2 h2 {
+  color: white;
+  font-family: "a고딕12";
+  font-size: 28px;
+  margin: 30px;
+}
+#event2 ul {
+}
+#event2 ul li {
+  float: left;
+  text-align: center;
+  margin: 0 10px;
+}
+#event2 ul li a {
+}
+#event2 ul li a img {
+  width: 550px;
+}
+#event2 ul li a span {
+  display: block;
+  color: white;
+  font-size: 33px;
+  font-family: "a고딕12";
+}
